@@ -151,8 +151,8 @@
 \newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, fill=mainblue,mainblue,text=white] (char) {#1};}}
 
 % Command for printing skill progress bars
-\newcommand\programming[1]{ 
-    \renewcommand{\programming}{
+\newcommand\[1]{ 
+    \renewcommand{\toolbox}{
         \begin{tikzpicture}
             \foreach [count=\i] \x/\y in {#1}{
                 \draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
@@ -235,9 +235,9 @@
         
         \vspace{3mm}
        
-     {\large \textbf{Programming}} 
+     {\large \textbf{Toolbox}} 
 
-         \programming
+         \toolbox
          
         \vspace{4mm}
         \profilesection{About Me}{3cm} 
