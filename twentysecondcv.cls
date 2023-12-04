@@ -142,8 +142,6 @@
 \newcommand{\cvmail}[1]{\renewcommand{\cvmail}{#1}}
 \newcommand{\cvnumberphone}[1]{\renewcommand{\cvnumberphone}{#1}}
 \newcommand{\cvaddress}[1]{\renewcommand{\cvaddress}{#1}}
-\newcommand{\cvsite}[2]{\newcommand{\cvsitea}{#1}
-                        \newcommand{\cvsiteb}{#2}}
 \newcommand{\aboutme}[1]{\renewcommand{\aboutme}{#1}}
 \newcommand{\profilepic}[1]{\renewcommand{\profilepic}{#1}}
 \newcommand{\cvname}[1]{\renewcommand{\cvname}{#1}}
@@ -222,20 +220,6 @@
               \end{array}
               $} & \href{https://www.\cvlinkedin}{\cvlinkedin} \\
             }
-      \ifthenelse{\equal{\href{\cvsitea}{\cvsitea}}{}}{}{
-            {$
-              \begin{array}{l}
-              \hspace{0.3mm} \huge \textnormal{\textcolor{test}{\faGlobe}}
-              \end{array}
-              $}
-            & \href{http://\cvsitea}{\cvsitea} \\}
-      \ifthenelse{\equal{\href{\cvsiteb}{\cvsiteb}}{}}{}{
-            {$
-              \begin{array}{l}
-              \hspace{0.3mm} \huge \textnormal{\textcolor{test}{\faGlobe}}
-              \end{array}
-              $}
-            & \href{http://\cvsiteb}{\small \cvsiteb} \\}
 
     \end{tabular}
 
