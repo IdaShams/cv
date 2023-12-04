@@ -162,8 +162,8 @@
         \end{tikzpicture}
     }
 }
-\newcommand\projects[1]{ 
-    \renewcommand{\projects}{
+\newcommand\about[1]{ 
+    \renewcommand{\about}{
         {#1}
     }
 }
@@ -240,9 +240,9 @@
          \programming
          
         \vspace{4mm}
-        \profilesection{Projects}{3cm} 
+        \profilesection{About Me}{3cm} 
         
-        \projects
+        \about
       
   \end{textblock}
 }
